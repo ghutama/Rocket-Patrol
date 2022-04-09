@@ -124,7 +124,7 @@ void clear(List L){
 
 void moveFront(List L){
     if (L == NULL){
-        printf("List Error: calling moveFront() on a NULL List reference\n");
+        printf("Error: moveFront() cannot be called. The list is empty.");
         exit(1);
     }
         if(length(L) > 0){
